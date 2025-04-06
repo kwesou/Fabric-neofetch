@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_neofetch",
+  "version": "${version}",
+  "name": "neofetch",
+  "description": "Adds /neofetch to your server or client.",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/fabric_neofetch/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.kwesou.fabric_neofetch.Fabric_neofetch"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
