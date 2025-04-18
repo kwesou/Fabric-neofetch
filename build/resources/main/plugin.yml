@@ -1,0 +1,12 @@
+name: mc-neofetch
+version: '1.0.0'
+main: org.kwesou.mcNeofetch.McNeofetch
+api-version: '1.20'
+authors: [ kwesou ]
+description: Adds /neofetch to your server or client
+website: https://github.com/kwesou/mc-neofetch
+
+commands:
+  neofetch:
+    description: Gives info about the server host.
+    permission: neofetch.execneofetch
